@@ -28,7 +28,7 @@ function proximoId(array $filmes): int {
 $mensagem = '';
 $edicao   = null;
 $filmes   = carregarFilmes($arquivo);
-$acao     = $_POST['acao'] ?? $_GET['acao'] ?? '';
+$acao     = $_POST['acaikijo'] ?? $_GET['acao'] ?? '';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
